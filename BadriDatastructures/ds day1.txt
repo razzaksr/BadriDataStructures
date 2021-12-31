@@ -1,0 +1,53 @@
+Data structure: Domain
+
+plan/ scheme/ blue print/ guidlines: how to organize data
+
+but data can be anything
+
+Process/ Steps:
+
+Requirement analysis
+background knowledge about scheme/ structure
+
+Algorithm	>> human understandable steps/instruction about how 			implementation would be done
+
+implementation	>> programming language to implement the algorithm
+			choose an language based on high performance and need
+			
+
+Structures:
+Array
+Stack
+LinkedList
+Queue
+Vector
+Tree
+Graph
+
+
+Operations:
+Create 
+Read 
+Update 
+Delete 
+List
+Search
+Sort
+
+Approaches/ Algorithms: performance
+analysis: time and space
+notations:
+Omega, Theta, 
+
+Big Oho >> worst case analysis notation
+O(1)
+O(n)
+O(n2)
+O(logn)
+O(nlogn)
+O(n3)........
+
+Implentation:
+static memory	: fixed memory: arary
+dynamic memory	: memory adjustable: collections>> java.util
+

@@ -1,0 +1,79 @@
+Algorithm:
+Upper, middle, lower bound
+
+Intructions in simple steps:
+
+Array Traverse elements:(List) - O(n)
+1. Start 
+2. Initialize the array ARR with N size
+3. Print ARR[INDEX] 
+4. Repeat Step 3, between INDEX 0 to N size
+5. Stop
+
+Array Update elements by position: (update) - O(1)
+1. start
+2. initliaze array ARR with elements size N
+3. get the value for INDEX and DATA to update
+4. Check IF INDEX < N size then Step 5, otherwise Step 6
+5. ARR INDEX = DATA, print UPDATED
+6. print INDEX invalid
+7. Stop
+
+Array Update elements by OLD data: (update) - O(n)
+1. start
+2. initliaze array ARR with elements size N
+3. get the value for OLD and NEW to update
+4. check IF ARR INDEX is OLD, then step5
+5. ARR INDEX = DATA, print UPDATED, Step 8
+6. repeat step4 and 5 between INDEX 0 to N size
+7. print INDEX invalid
+8. Stop
+
+STACK: Last In First Out >> Array implementation
+
+PUSH:
+1. start
+2. initialize array with N size
+3. get value for DATA
+4. check IF PEEK is not EMPTY/NULL, then step 5, 
+	otherwise print STACK is EMPTY, step 6
+5. PUSH DATA, then PEEK=DATA
+6. PUSH DATA at 0 and PEEK=DATA
+7. STOP
+
+Traverse:
+1. start
+2. check IF PEEK is in -1 then, PRINT STACK is EMPTY and step 5
+3. Print ARR PEEK, PEEK-1
+4. Repeat Step 3 Until PEEK > -1 and ARR PEEK is not NULL
+5. stop
+
+Find Peek:
+1. start
+2. initialize ARR with N size
+3. check IF PEEK is -1 then, STACK is Empty
+4. otherwise print PEEK and ARR PEEK
+5. stop
+
+Pop:
+1. start
+2. initialize ARR with N size
+3. check IF PEEK is -1 then, STACK is EMPTY
+4. otherwise print ARR PEEK, PEEK - 1
+5. stop
+
+clear:
+1. start
+2. initialize ARR with N size
+3. check IF PEEK = -1 then, print Stack is empty already
+4. otherwise PEEK = -1
+5. stop
+
+Search
+1. start
+2. initialize ARR with N size and DATA to search
+3. check if PEEK is -1 then, STACK is EMpty
+4. IF ARR PEEK is DATA then print ARR PEEK
+	otherwise, PEEK -1
+5. Repeat step 4 till PEEK >0
+6. stop
